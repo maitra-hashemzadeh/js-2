@@ -1,0 +1,4 @@
+// Using an example, explain the difference between block,global and function scope in variables.
+//Global Scope: Variables declared outside any function or block have global scope. They can be accessed from anywhere in your code.var, let, and const declared outside any function/block are globally scoped (with some differences in behavior — more on that later).
+//Function Scope: Variables declared inside a function are only accessible within that function — not outside it.var, let, and const are function scoped when declared inside functions.
+// Block Scope : Variables declared using let and const inside a block (like if, for, or {}) are only available inside that block.But var is not block scoped. It ignores blocks except functions:
