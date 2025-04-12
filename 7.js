@@ -4,21 +4,9 @@
 
 const array = ["hello Jo", "fish", "birmingham", "periodic table", "phone"];
 //!  Answer:
-let characters = array.every((num) => {
-  num.length > 6;
-  if (num.length > 10) {
-    return false;
-  } else {
-    return true;
-  }
-});
-console.log(characters);
-
-let char = array.filter((num) => {
-    if (num > array.length) {
-      return false;
-    } else {
-      return true;
-    }
-  });
-console.log(char);
+function characters(str) {
+  const num1 = str.filter((arr)=>arr.length>6);
+  const num2 = num1.every((str)=>str.length<10);
+  return num2
+}
+console.log(characters(array))

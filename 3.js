@@ -11,8 +11,13 @@ const brands = [
     'samsung',
     'sony',
   ];
-  function brandsSearch(arr, query) {
-    return arr.filter((elements) => elements.toLowerCase().includes(query.toLowerCase())); //  to be completed
+  // function brandsSearch(arr, query) {
+  //   return arr.filter((elements) => elements.toLowerCase().includes(query.toLowerCase())); //  to be completed
+  // }
+  // ------------------------------------------------------
+  function brandsSearch(arr, query){
+    let elements = arr.filter((element)=>element.startsWith(query))
+    return elements;
   }
   
   console.log(brandsSearch(brands, 'a')); // result : [ 'asus', 'apple', 'acer' ]
