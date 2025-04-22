@@ -17,10 +17,14 @@ let gamers_data = [
   ];
   
   // ! Answer
- for(const key of gamers_data) {
-    
-    
- }
+  for (let gamer of gamers_data) {
+    if (gamer.gamer_id === 1002) {
+      gamer.gamer_name = 'Leo'; 
+    }
+  }
+  
+  console.log(gamers_data);
+  
 
 
  // check it 

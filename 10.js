@@ -9,7 +9,16 @@
 const ArrayOfNames = ['Tom', 'Margaret', 'Allison', 'David', 'Pierre'];
 
 // ! Answer
-function array() {
-    
+function array(arr) {
+    const process = ([first, second, third, ...rest]) => {
+      return {
+        first,
+        second,
+        third,
+        rest
+      };
+    };
+    return process(arr);
 }
-// check
+    console.log(array(ArrayOfNames));
+    

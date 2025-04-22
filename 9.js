@@ -22,4 +22,5 @@ const person = {
 // ! Answer
 const [one,two,three]= numbers
 console.log(three);
-// check
+person.body.legs = 4
+console.log(person.body.legs);

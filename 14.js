@@ -11,11 +11,18 @@ const object1 = {
   };
 
   console.log(Object.values(object1));
+  // =========================
   function obj(...object1) {
     return object1
   }
   obj(object1)
   console.log(obj(object1))
-//   check
+//  ================================
+  console.log(object1.ali);
+  console.log(object1.writes);
+  console.log(object1.novels);
+  
+  
+  
   
   

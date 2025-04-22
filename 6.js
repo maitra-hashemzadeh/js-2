@@ -6,13 +6,13 @@
 
 let user = { name: 'John', years: 30 };
 
-console.log(name); // John
+let { name: firstName, years: age, admin: isAdmin = false } = user;
+
+// console.log(name); // John
+console.log(firstName);
 console.log(age); // 30
 console.log(isAdmin); // false
 
 // ! Answer
-const {name : firstName, years:age, isAdmin, admin="No"}= user
 
 
-
-// check it 

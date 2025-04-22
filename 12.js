@@ -12,10 +12,10 @@ const myClasses = {
   //   Example Output: "Time to go to Programming class!"
   
   // ! Answer
-function goToSecondClass({myClasses}) {
-    return `Time to go to ${myclasses} class!`
+function goToSecondClass({firstHour,secondHour,thirdHour}) {
+    return `Time to go to ${secondHour} class!`
 } console.log(goToSecondClass(myClasses));
-
+goToSecondClass(myClasses)
 
 // check
  

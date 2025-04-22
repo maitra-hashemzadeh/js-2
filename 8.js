@@ -4,8 +4,5 @@
 const moreStudents = ['Chris', ['Ahmad', 'Antigoni'], ['Toby', 'Sam']];
 
 //! Answer :
-const [a, [b,c,[d,e]]] = moreStudents
 console.log(moreStudents);
-
-
-// check
+ const [one , two , three , four, five] = moreStudents

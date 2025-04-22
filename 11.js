@@ -11,14 +11,9 @@ const person2 = {
   };
   
   // ! Answer
-  function people({...first,...last}) {
-    const {
-        first: 'Elon',
-        last: 'Musk',
-        twitter: '@elonmusk',
-        company: 'Space X',
-      } = person2
+  function displayName({first,last}) {
+    console.log(`First Name: ${first}, Last Name: ${last}`);
   }
-  console.log(people);
-  // check
+  displayName(person2);
+  
   

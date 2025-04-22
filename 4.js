@@ -10,12 +10,11 @@ const obj2 = {
   
   //  !   Answer:
 const newObj ={...obj2} 
-obj2.id= "John.k"
-obj2.skills=["python","css","js"]
-console.log(obj2)
+newObj.id= "John.k"
+newObj.skills=["python","css","js"]
+console.log(newObj)
 
 
 
 
-// check it 
   
