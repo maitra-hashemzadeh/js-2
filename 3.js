@@ -12,18 +12,21 @@ const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 // !Answer:
 
-function number(...num) {
-    return [...num]
-    function halfNum(nomero) {
-        return nomero <= 5
-        function data(phone) {
-            return phone>5
-        }
-    } return data
-} return halfNum
-
-let fullFunc = number()
-fullFunc()
-
-
-// check it
+function splitArray(arr) {
+    function firstHalf() {
+      const middle = Math.floor(arr.length / 2);
+      const first = arr.slice(0, middle);
+      console.log(first);
+    }
+  
+    function secondHalf() {
+      const middle = Math.floor(arr.length / 2);
+      const second = arr.slice(middle);
+      console.log(second);
+    }
+  
+    firstHalf();
+    secondHalf();
+  }
+  
+  splitArray(numbers);
